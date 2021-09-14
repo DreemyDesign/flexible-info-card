@@ -16,7 +16,7 @@ body {
 
 h2 {
   text-align: center;
-  margin: 1.5rem;
+  margin-top: 2rem;
 }
 
 h3,
@@ -27,15 +27,15 @@ h4 {
 ul {
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  padding: .5rem 1rem .6rem;
 }
 
 li {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
 }
 
 li img {
