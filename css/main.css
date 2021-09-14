@@ -1,13 +1,17 @@
-html,
-* {
+html {
+  box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   color: #000;
   background-color: #ccc;
   line-height: 1.5;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
-  margin: 2rem;
+  margin: 1.5rem;
 }
 
 h2 {
