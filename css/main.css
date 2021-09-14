@@ -1,13 +1,17 @@
-body {
+html,
+* {
   font-family: "Open Sans", sans-serif;
   color: #000;
-  background-color: lightgrey;
+  background-color: #ccc;
   line-height: 1.5;
+}
+
+body {
+  margin: 2rem;
 }
 
 h2 {
   text-align: center;
-  margin-top: 2rem;
 }
 
 h3,
@@ -44,6 +48,6 @@ li p {
 li a {
   padding: .5rem 1rem .6rem;
   background-color: #444;
-  color: #FFF;
+  color: #fff;
   text-decoration: none;
 }
